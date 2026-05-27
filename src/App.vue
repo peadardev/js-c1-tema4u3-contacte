@@ -1,11 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FormulariContacte from './components/FormulariContacte.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="container">
+    <h1>Formulari de contacte</h1>
+    <FormulariContacte />
+  </div>
 </template>
 
 <style scoped></style>
