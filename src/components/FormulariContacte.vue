@@ -79,7 +79,7 @@ function onSubmit() {
 
     <!-- Missatge -->
     <label for="name">Missatge</label>
-    <input
+    <textarea
       id="message"
       type="text"
       v-model="message"
@@ -119,5 +119,12 @@ function onSubmit() {
 .btn[disabled] {
   opacity: 0.6;
   cursor: not-allowed;
+}
+textarea {
+  width: 100%;
+  min-height: 60px;
+  max-height: 200px;
+  padding: 8px;
+  resize: vertical;
 }
 </style>
