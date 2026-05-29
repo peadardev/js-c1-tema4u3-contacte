@@ -27,7 +27,7 @@ const [subject, subjectAttrs] = defineField('subject');
 const [message, messageAttrs] = defineField('message');
 
 function onSubmit() {
-  console.log('CONTACTE:', JSON.stringify(values));
+  console.log('CONTACTE:', JSON.stringify(values, null, 2));
 }
 </script>
 
